@@ -39,7 +39,7 @@ public class Engine {
         Point current = null, last = null;
 
         for(int i = 0; i < pointAmount; i++) {
-            if(i == 0) {
+            if(i == 0) { 
                 start = new Point(300 + (int) (Math.cos((Math.PI * 2 / pointAmount) * i) * 200), 300 - (int) (Math.sin((Math.PI * 2 / pointAmount) * i) * 200), 0, null, "p1");
                 last = start;
                 points.add(start);
